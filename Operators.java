@@ -7,17 +7,17 @@ public class Operators
 {
     int i = 10;
     int f = 3;
-    int flag = 13;
-    String b = 
+    boolean flag = false;
     public void run(){
         f = f + i ;
+        if(flag == false){
+        flag = true;
+        }
+        else {
+        flag = false;
+        }
         i++;
         
-        while(flag != 0 ){
-            if(flag%2 == 0){
-            }
-            System.out.println(flag);
-        }
         System.out.println(i);
         System.out.println(f);
         System.out.println(flag);
