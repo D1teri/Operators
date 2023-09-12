@@ -10,12 +10,7 @@ public class Operators
     boolean flag = false;
     public void run(){
         f = f + i ;
-        if(flag == false){
-        flag = true;
-        }
-        else {
-        flag = false;
-        }
+        flag = !flag;
         i++;
         
         System.out.println(i);
